@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\ASUS\Desktop\a\AppBanHang\ShopManagementWPF\ShopWPF\obj\Debug\
+C:\Users\ASUS\Desktop\a\AppBanHang\ShopManagementWPF\ShopWPF\obj\Release\
 ShopWPF
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\ASUS\Desktop\a\AppBanHang\ShopManagementWPF\ShopWPF\App.xaml
 11151548125
 
-7-290154405
+6552204962
 13-1505183044
 MainWindow.xaml;
 
