@@ -5,6 +5,23 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWPF", "ShopWPF\ShopWPF.csproj", "{469543A7-417B-48E5-8D67-698461583D2D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{93A98D2C-0F41-47DA-946E-86037690AAE4}"
+	ProjectSection(SolutionItems) = preProject
+		DAO\CompanyDAO.cs = DAO\CompanyDAO.cs
+		DAO\Config.cs = DAO\Config.cs
+		DAO\SqlConnection.cs = DAO\SqlConnection.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{F559EEA4-1795-4BD3-A920-484C67E29B13}"
+	ProjectSection(SolutionItems) = preProject
+		Model\Bill.cs = Model\Bill.cs
+		Model\Company.cs = Model\Company.cs
+		Model\Customer.cs = Model\Customer.cs
+		Model\ImportGoods.cs = Model\ImportGoods.cs
+		Model\Product.cs = Model\Product.cs
+		Model\ProductBill.cs = Model\ProductBill.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
