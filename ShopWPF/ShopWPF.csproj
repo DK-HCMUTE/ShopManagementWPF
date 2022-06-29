@@ -75,6 +75,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="DAO\CompanyDAO.cs" />
+    <Compile Include="DAO\Config.cs" />
+    <Compile Include="DAO\SqlConnection.cs" />
     <Compile Include="GUI\Pages\AddStuffsPage.xaml.cs">
       <DependentUpon>AddStuffsPage.xaml</DependentUpon>
     </Compile>
@@ -98,6 +101,12 @@
     <Compile Include="GUI\Pages\AddNewStuffsPage.xaml.cs">
       <DependentUpon>AddNewStuffsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Bill.cs" />
+    <Compile Include="Model\Company.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\ImportGoods.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductBill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
